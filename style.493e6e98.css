@@ -639,7 +639,7 @@ body {
 
   .menu-item {
     margin: 20px auto;
-    display:none;
+    width: 600px;
   }
 
   .img-gal,
@@ -689,12 +689,7 @@ body {
   }
 
   .history-images {
-    display: block;
-    padding-left: 0px;
-    margin-left: -46px;
-    margin-top: 42px;
-    padding-bottom: 317px;
-    width: 290px;
+    display: none;
   }
 
   .history-title,
