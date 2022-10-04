@@ -689,7 +689,11 @@ body {
   }
 
   .history-images {
-    display: none;
+    display: block;
+    padding-left: 0px;
+    margin-left: -46px;
+    margin-top: 42px;
+    padding-bottom: 317px;
   }
 
   .history-title,
