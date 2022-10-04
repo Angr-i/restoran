@@ -639,7 +639,7 @@ body {
 
   .menu-item {
     margin: 20px auto;
-    width: 600px;
+    display:none;
   }
 
   .img-gal,
