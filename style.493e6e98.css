@@ -603,4 +603,158 @@ body {
   background-size: cover;
 }
 
+.burger-menu {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.burger-slide {
+  position: absolute;
+}
+
+.burger-btn {
+  background: none;
+  border: none;
+}
+
+.disp {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .galery-content {
+    display: block;
+  }
+
+  .galery-left {
+    margin-right: 0;
+  }
+
+  .menu-items {
+    display: block;
+  }
+
+  .menu-item {
+    margin: 20px auto;
+    width: 600px;
+  }
+
+  .img-gal,
+.galyre-down,
+.galyre-up {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-gal {
+    margin-bottom: 20px;
+  }
+
+  .header-titl {
+    position: static;
+  }
+
+  .header-subtitle::before,
+.header-suptitle::after {
+    content: none;
+  }
+
+  .cook-content {
+    display: block;
+  }
+
+  .cook-content img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+
+  .block-holder {
+    display: block;
+  }
+
+  .left-title,
+.left-text,
+.right-button {
+    text-align: center;
+  }
+
+  .right-button {
+    margin-top: 30px;
+  }
+
+  .history-images {
+    display: none;
+  }
+
+  .history-title,
+.history-desc,
+.history-number {
+    width: auto;
+  }
+}
+@media (max-width: 1185px) {
+  .burger-menu {
+    display: block;
+  }
+
+  .nav,
+.cart,
+.phone,
+.btn {
+    display: none;
+  }
+
+  .header-line {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .pizza-imege {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .cards-holder {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 780px) {
+  .history-holder {
+    display: block;
+  }
+
+  .menu-item {
+    width: auto;
+  }
+
+  .high {
+    width: 298.06px;
+  }
+
+  .container {
+    margin: auto 40px;
+  }
+
+  .footer {
+    background-size: cover;
+  }
+
+  .menu-item {
+    font-size: 23px;
+  }
+}
+
 /*# sourceMappingURL=/style.493e6e98.css.map */
