@@ -659,7 +659,7 @@ body {
   }
 
   .header-subtitle::before,
-.header-suptitle::after {
+  .header-suptitle::after {
     content: none;
   }
 
@@ -735,7 +735,13 @@ body {
   .history-holder {
     display: block;
   }
-
+  .number-item,
+  .history-number{
+    display: block;
+  }
+  .number-item{
+    margin-bottom: 20px;
+  }
   .menu-item {
     width: auto;
   }
